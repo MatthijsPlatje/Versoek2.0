@@ -1,0 +1,681 @@
+{
+  "nav": {
+    "home": "Home",
+    "offerRide": "Offer Ride",
+    "agenda": "Find a Ride",
+    "calendar": "Dashboard",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "admin": "Admin",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "home": {
+    "hero": {
+      "title": "Transform Your Company's Commute",
+      "subtitle": "The trusted corporate carpooling platform that reduces costs, cuts emissions, and creates happier employees—all while simplifying facility management.",
+      "demoButton": "Request a Demo",
+      "tryButton": "Try It Free"
+    },
+    "stats": {
+      "title": "Proven Results for Organizations Like Yours",
+      "higherUsage": "Up to 50% Higher Usage Rates",
+      "lessParking": "Up to 30% Less Parking Needed",
+      "carbonReduction": "11–22% Carbon Reduction",
+      "moreSatisfied": "80% Report Higher Satisfaction"
+    },
+    "features": {
+      "title": "Everything You Need to Build a Thriving Carpool Community",
+      "subtitle": "Our platform makes it effortless for employees to share rides while giving you the tools to track impact and measure ROI.",
+      "parkingCosts": {
+        "title": "Reduce Parking Costs",
+        "description": "Organizations report parking savings of up to 30% shortly after launching a carpooling platform, aligning with reduced traffic and emissions. Studies show carpooling can reduce fleet size by 25% in urban areas."
+      },
+      "sustainability": {
+        "title": "Meet Sustainability Goals",
+        "description": "Carpooling can lower carbon emissions by 11–22% depending on participation, with every shared ride making a measurable climate impact. Event-based carpooling programs have saved over 10,000 km of car travel per event."
+      },
+      "satisfaction": {
+        "title": "Boost Employee Satisfaction",
+        "description": "Research shows that over 80% of carpoolers feel less commute stress and more workplace engagement, as shared rides foster community connections and reduce daily transportation hassles."
+      },
+      "transportation": {
+        "title": "Save on Transportation",
+        "description": "Pooling rides actively cuts fuel expenses and vehicle wear, with companies reporting reduced absenteeism and turnover. The carpool-as-a-service market is growing 10.6% annually through 2034."
+      },
+      "scheduling": {
+        "title": "Smart Scheduling",
+        "description": "Automated ride matching and recurring scheduling ensure maximum occupancy, fewer empty seats, and daily reliability. Pptimize efficiency and reduce total travel distance by selecting the most suitable route."
+      },
+      "communication": {
+        "title": "Seamless Communication",
+        "description": "Real-time notifications and calendar sync keep every participant informed, making complex multi-shift carpooling smooth for everyone. Email or phone colleagues directly to reduce coordination friction."
+      }
+    },
+    "howItWorks": {
+      "title": "Custom Setup, Powerful Impact",
+      "step1": {
+        "title": "Personalised deployement",
+        "description": "Set up your branded carpooling platform with our personal approach."
+      },
+      "step2": {
+        "title": "Employees Connect",
+        "description": "Your team creates profiles, offers rides, and finds matches with colleagues on similar routes."
+      },
+      "step3": {
+        "title": "Track & Optimize",
+        "description": "Monitor usage, measure environmental impact, and export data for sustainability reporting."
+      }
+    },
+    "useCases": {
+      "title": "Perfect for Every Organization",
+      "enterprise": {
+        "title": "Large Enterprises",
+        "description": "Reduce parking infrastructure costs and meet corporate sustainability targets with measurable emissions reductions."
+      },
+      "tech": {
+        "title": "Tech Companies",
+        "description": "Offer a modern employee benefit that attracts and retains top talent while supporting work-life balance."
+      },
+      "healthcare": {
+        "title": "Healthcare Facilities",
+        "description": "Help shift workers coordinate rides across different schedules and locations, reducing staff transportation stress."
+      },
+      "manufacturing": {
+        "title": "Manufacturing",
+        "description": "Connect employees across multiple shifts in industrial areas with limited transit options, improving retention."
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Company's Commute?",
+      "subtitle": "Join forward-thinking organizations that are reducing costs, cutting emissions, and creating happier employees with corporate carpooling.",
+      "button": "Contact Us Today",
+      "disclaimer": "No credit card required • Free trial available • Customization options"
+    },
+    "references": {
+      "title": "Sources & Research",
+      "note": "All statistics based on peer-reviewed research and industry studies",
+      "sources": [
+        "International Transport Forum (ITF) - Global carpooling emissions data",
+        "Nature Journal 2024 - Urban carpooling efficiency study",
+        "Carpool-as-a-Service Market Analysis 2025-2034",
+        "Netherlands Event Carpooling Case Studies 2024",
+        "ScienceDirect - Carbon savings in ride-pooling research"
+      ]
+    }
+  },
+  "offerRide": {
+    "title": "Offer a Ride",
+    "subtitle": "Set your route and schedule to start sharing your commute.",
+    "createButton": "Create Ride",
+    "step1": {
+      "title": "1. Set Your Route",
+      "instruction": "Click on the map to set your start and end points.",
+      "currentlySelecting": "Currently selecting",
+      "start": "START",
+      "end": "END",
+      "done": "DONE",
+      "resetPoints": "Reset Points"
+    },
+    "step2": {
+      "title": "2. Select Ride Type",
+      "singleTrip": "Single Trip",
+      "recurring": "Recurring"
+    },
+    "step3": {
+      "title": "3. Set Your Schedule",
+      "onTheseDays": "On these days",
+      "departureTime": "Departure Time",
+      "departureDatetime": "Departure Date & Time",
+      "includeReturn": "Include a return trip",
+      "returnTime": "Return Time",
+      "startDate": "Start Date",
+      "endDate": "End Date (Optional)"
+    },
+    "step4": {
+      "title": "4. Final Details",
+      "availableSeats": "Available Seats"
+    },
+    "days": {
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat",
+      "sunday": "Sun"
+    },
+    "success": {
+      "single": "Your ride has been offered!",
+      "recurring": "Recurring ride rule has been created!"
+    },
+    "errors": {
+      "selectPoints": "Please select a start and end point on the map.",
+      "selectDays": "Please select at least one day for a recurring ride.",
+      "addressFetch": "Could not fetch address. Please try again.",
+      "unexpected": "An unexpected error occurred."
+    }
+  },
+  "agenda": {
+    "title": "Find a Ride",
+    "from": "From",
+    "to": "To",
+    "filterByDate": "Date",
+    "clearFilters": "Clear Filters",
+    "searching": "Searching for rides...",
+    "departure": "Departure",
+    "availableSeats": "Seats Available",
+    "driver": "Driver",
+    "viewDetails": "View Details",
+    "noRidesFound": "No rides found matching your criteria. Try different filters or check back later!",
+    "notSpecified": "Not specified",
+    "placeholders": {
+      "from": "e.g., Downtown Office",
+      "to": "e.g., North Campus"
+    }
+  },
+  "calendar": {
+    "title": "Your Activity Calendar",
+    "loading": "Loading your schedule...",
+    "detailsFor": "Details for",
+    "offerRide": "Offer a ride on the selected day",
+    "findRide": "Find a Ride",
+    "youAreDriving": "You are Driving",
+    "youArePassenger": "You are a Passenger",
+    "recurringPlan": "Recurring Plan",
+    "time": "Time",
+    "seatsAvailable": "Seats Available",
+    "driver": "Driver",
+    "status": "Status",
+    "viewManifest": "View Ride Manifest",
+    "viewRideDetails": "View Ride Details",
+    "recurringPlaceholderInfo": "This is a placeholder for your recurring ride. An actual ride will be generated automatically for others to join.",
+    "otherRidesAvailable": "Other Rides Available",
+    "otherRidesInfo": "There are other rides available on this day.",
+    "viewAllRides": "View All Rides on this Day",
+    "noActivity": "No activity planned for this day.",
+    "selectDay": "Select a day to see details.",
+    "legend": {
+      "actualRide": "Actual Ride",
+      "recurringPlan": "Recurring Plan",
+      "youRequested": "You Requested",
+      "ridesAvailable": "Rides Available"
+    },
+    "errors": {
+      "loadFailed": "Could not load your schedule.",
+      "updateFailed": "Could not update request."
+    },
+    "quickLinks": {
+      "myRides": "My Rides",
+      "createRide": "Create Ride",
+      "recurringRide": "Recurring Ride",
+      "findRides": "Find Rides",
+      "requests": "Requests"
+    }
+  },
+  "rideDetail": {
+    "title": "Ride with",
+    "loading": "Loading ride details...",
+    "departure": "Departure",
+    "from": "From",
+    "to": "To",
+    "startLocation": "Start Location",
+    "endLocation": "End Location",
+    "cancelMySeat": "Cancel My Seat",
+    "cancelThisRide": "Cancel This Ride",
+    "passenger": "Passenger",
+    "pendingFrom": "Pending request from",
+    "accept": "Accept",
+    "decline": "Refuse",
+    "yourPickup": "Your requested pickup location",
+    "selectedPickup": "Your selected pickup spot",
+    "mapUnavailable": "Map data is unavailable. Coordinates are missing or invalid.",
+    "manifest": {
+      "title": "Ride Manifest",
+      "seatsLeft": "Seats Left",
+      "acceptedPassengers": "Accepted Passengers",
+      "noPassengers": "No passengers have been accepted yet."
+    },
+    "requestStatus": {
+      "title": "Your Request Status",
+      "current": "Your request for this ride is currently"
+    },
+    "requestSeat": {
+      "title": "Request a Seat",
+      "instruction": "Click on the map above to set your desired pickup location.",
+      "confirm": "Confirm Seat Request",
+      "full": "Ride is Full"
+    },
+    "alerts": {
+      "selectPickup": "Please select a pickup location on the map first.",
+      "requestSent": "Your request has been sent!",
+      "seatCanceled": "Your seat has been canceled.",
+      "rideCanceled": "The ride has been successfully canceled."
+    },
+    "confirmations": {
+      "cancelSeat": "Are you sure you want to cancel your seat? This cannot be undone.",
+      "cancelRide": "Are you sure you want to cancel this entire ride? All passengers will be notified. This action cannot be undone."
+    },
+    "errors": {
+      "loadFailed": "Failed to load ride details.",
+      "noData": "Ride data could not be loaded.",
+      "requestFailed": "Could not send request.",
+      "cancelSeatFailed": "Failed to cancel your seat.",
+      "cancelRideFailed": "Failed to cancel the ride.",
+      "updateFailed": "Could not update request."
+    }
+  },
+  "notifications": {
+    "title": "Your Notifications",
+    "markAllRead": "Mark All as Read",
+    "noNotifications": "You have no new notifications.",
+    "loading": "Loading notifications..."
+  },
+  "profile": {
+    "title": "Your Profile",
+    "loading": "Loading profile...",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "phonePlaceholder": "e.g., +1 555-123-4567",
+    "updatePicture": "Update Profile Picture",
+    "uploadButton": "Upload Picture",
+    "updateButton": "Update Profile Info",
+    "pictureAlt": "Profile",
+    "updateSuccess": "Profile updated successfully!",
+    "updateError": "Failed to update profile.",
+    "pictureUpdateSuccess": "Profile picture updated!",
+    "pictureUpdateError": "Failed to upload picture.",
+    "selectFileFirst": "Please select a file first."
+  },
+    "admin": {
+    "title": "Admin Dashboard",
+    "exportButton": "📊 Export Rides CSV",
+    "tabs": {
+      "overview": "Overview",
+      "sustainability": "Sustainability",
+      "engagement": "User Engagement",
+      "operations": "Operations"
+    },
+    "kpis": {
+      "totalUsers": "Total Users",
+      "totalRides": "Total Rides Created",
+      "passengersTransported": "Passengers Transported",
+      "averageDistance": "Average Ride Distance",
+      "totalCO2Saved": "Total CO₂ Saved",
+      "treesEquivalent": "Trees Equivalent",
+      "totalDistance": "Total Distance Carpooled",
+      "occupancyRate": "Average Occupancy Rate",
+      "activeDrivers": "Active Drivers",
+      "driverUtilization": "Driver Utilization Rate",
+      "acceptanceRate": "Request Acceptance Rate",
+      "avgResponseTime": "Avg Response Time",
+      "completionRate": "Ride Completion Rate",
+      "pendingRequests": "Pending Requests",
+      "refusedRequests": "Refused Requests"
+    },
+    "chart": {
+      "title": "Rides & Passengers (Last 6 Months)",
+      "ridesCreated": "Rides Created",
+      "passengersAccepted": "Passengers Accepted",
+      "co2Trend": "CO₂ Emissions Saved Over Time",
+      "co2Label": "CO₂ Saved (kg)",
+      "requestStatus": "Request Status Distribution",
+      "peakHours": "Peak Usage Hours",
+      "peakHoursLabel": "Rides by Hour",
+      "newUsers": "New User Registrations",
+      "newUsersLabel": "New Registrations",
+      "ridesVsPassengers": "Rides vs Passengers (6 Months)",
+      "requestDistribution": "Request Distribution"
+    },
+    "labels": {
+      "accepted": "Accepted",
+      "pending": "Pending",
+      "refused": "Refused",
+      "kg": "kg",
+      "hours": "h",
+      "percent": "%",
+      "km": "km"
+    },
+    "errors": {
+      "loadFailed": "Failed to load dashboard data. You may not have permission or the server may be down.",
+      "exportFailed": "Could not export data. Please try again.",
+      "noData": "No data available",
+      "noChartData": "No chart data available",
+      "noKpiData": "No KPI data available"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login to Your Account",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "loginButton": "Login",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Register here",
+      "error": "Invalid credentials",
+      "errorGeneric": "An error occurred. Please try again."
+    },
+    "register": {
+      "title": "Create Your Account",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "registerButton": "Register",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Login here",
+      "passwordMismatch": "Passwords do not match",
+      "success": "Registration successful!",
+      "errorGeneric": "An error occurred. Please try again."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "coordinates": "Coordinates",
+    "locationNotSpecified": "Location not specified",
+    "invalidDate": "Invalid Date",
+    "locale": "en-US"
+  },
+  "publicProfile": {
+    "title": "{{name}}'s Profile",
+    "loading": "Loading profile...",
+    "errorLoad": "Could not load profile. The user may not exist.",
+    "notFound": "Profile not found.",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Contact Phone",
+    "notProvided": "Not provided",
+    "pictureAlt": "{{name}}'s profile"
+  },
+  "adminPage": {
+    "title": "Admin Dashboard",
+    "subtitle": "Manage your carpooling platform",
+    "userManagement": {
+      "title": "User Management",
+      "description": "Add, edit, and manage user accounts. Upload bulk users via CSV and send invitation emails.",
+      "features": {
+        "bulkUpload": "Bulk CSV Upload",
+        "editDetails": "Edit User Details",
+        "departmentManagement": "Department Management",
+        "resendInvitations": "Resend Invitations"
+      }
+    },
+    "analytics": {
+      "title": "Analytics Dashboard",
+      "description": "View comprehensive platform statistics, sustainability metrics, and user engagement data.",
+      "features": {
+        "realtimeKpis": "Real-time KPIs",
+        "co2Tracking": "CO₂ Savings Tracking",
+        "userEngagement": "User Engagement Charts",
+        "exportReports": "Export Reports"
+      }
+    },
+    "preview": {
+      "platformOverview": {
+        "title": "Platform Overview",
+        "description": "Quick access to manage users and view detailed analytics"
+      },
+      "sustainabilityFocus": {
+        "title": "Sustainability Focus",
+        "description": "Track environmental impact and corporate goals"
+      },
+      "dataInsights": {
+        "title": "Data-Driven Insights",
+        "description": "Make informed decisions with comprehensive reports"
+      }
+    }
+  },
+  "userManagement": {
+    "title": "User Management",
+    "backToAdmin": "Back to Admin",
+    "bulkUpload": {
+      "title": "Bulk User Upload",
+      "description": "Upload a CSV file to create multiple user accounts at once. Each user will receive an invitation email with their login credentials.",
+      "downloadTemplate": "Download CSV Template",
+      "chooseFile": "Choose CSV File",
+      "uploadButton": "Upload & Create Users",
+      "uploading": "Uploading..."
+    },
+    "uploadStatus": {
+      "created": "Created",
+      "skipped": "Skipped",
+      "errors": "Errors",
+      "users": "users"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by name or email...",
+      "allDepartments": "All Departments",
+      "clearFilters": "Clear Filters"
+    },
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "department": "Department",
+      "admin": "Admin",
+      "joined": "Joined",
+      "actions": "Actions",
+      "yes": "Yes",
+      "no": "No",
+      "editTitle": "Edit",
+      "resendTitle": "Resend Invitation",
+      "deleteTitle": "Delete"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {{current}} of {{total}}"
+    },
+    "editModal": {
+      "title": "Edit User",
+      "name": "Name",
+      "email": "Email",
+      "department": "Department",
+      "adminUser": "Admin User",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "confirmations": {
+      "deleteUser": "Are you sure you want to delete this user?"
+    },
+    "alerts": {
+      "selectFile": "Please select a CSV file first",
+      "deleteError": "Error deleting user",
+      "resendSuccess": "Invitation email resent successfully",
+      "resendError": "Error resending invitation",
+      "updateError": "Error updating user"
+    },
+    "loading": "Loading users..."
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Have questions? Want to schedule a demo? We're here to help you transform your company's commute."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email"
+      },
+      "phone": {
+        "title": "Phone"
+      },
+      "address": {
+        "title": "Location"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "weekend": "Weekend: By appointment"
+      },
+      "demo": {
+        "title": "Need a Quick Demo?",
+        "description": "Schedule a 15-minute online demo to see how our platform can benefit your organization.",
+        "button": "Select 'Request a Demo' as a subject"
+      }
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a subject",
+      "subjects": {
+        "demo": "Request a Demo",
+        "pricing": "Pricing Information",
+        "support": "Technical Support",
+        "partnership": "Partnership Opportunity",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Thank you! Your message has been sent successfully. We'll get back to you within 24 hours.",
+      "errorMessage": "Sorry, something went wrong. Please try again or email us directly at info@versoek.nl"
+    }
+  },
+  "myRides": {
+    "title": "My Rides",
+    "tabs": {
+      "recurring": "Recurring Patterns",
+      "upcoming": "Upcoming Rides",
+      "past": "Past Rides",
+      "passenger": "As Passenger"
+    },
+    "recurring": {
+      "title": "Recurring Ride Patterns",
+      "noPatterns": "You have no recurring ride patterns.",
+      "createLink": "Create a recurring ride",
+      "days": "Days",
+      "time": "Time",
+      "seats": "Seats",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "noEndDate": "No end date",
+      "expired": "Expired",
+      "cancelPattern": "Cancel Pattern",
+      "confirmCancel": "Are you sure you want to cancel this recurring ride pattern?\n\nThis will stop generating new rides, but existing scheduled rides will remain until you cancel them individually."
+    },
+    "upcoming": {
+      "title": "Upcoming Rides (As Driver)",
+      "noRides": "You have no upcoming rides.",
+      "createLink": "Create a ride",
+      "seatsLeft": "Available Seats",
+      "passengers": "Passengers",
+      "confirmed": "confirmed",
+      "pendingRequests": "pending requests",
+      "viewDetails": "View Details",
+      "cancelRide": "Cancel Ride",
+      "confirmCancel": "Are you sure you want to cancel this ride?"
+    },
+    "past": {
+      "title": "Past Rides (As Driver)",
+      "noRides": "No past rides.",
+      "completed": "Completed",
+      "passengers": "Passengers"
+    },
+    "passenger": {
+      "title": "My Rides as Passenger",
+      "noRides": "You haven't booked any rides as a passenger.",
+      "findLink": "Find rides",
+      "driver": "Driver",
+      "departure": "Departure",
+      "viewDetails": "View Details"
+    },
+    "common": {
+      "departure": "Departure",
+      "from": "From",
+      "to": "To"
+    },
+    "alerts": {
+      "patternCancelled": "Recurring ride pattern cancelled successfully!",
+      "patternCancelFailed": "Failed to cancel recurring ride",
+      "rideCancelled": "Ride cancelled successfully!",
+      "rideCancelFailed": "Failed to cancel ride"
+    },
+    "loading": "Loading your rides..."
+  },
+  "rideRequests": {
+    "title": "Ride Requests",
+    "tabs": {
+      "received": "Received",
+      "sent": "My Requests"
+    },
+    "received": {
+      "title": "Requests for Your Rides",
+      "noRequests": "No pending requests for your rides.",
+      "passenger": "Passenger",
+      "ride": "Ride",
+      "departure": "Departure",
+      "pickupLocation": "Pickup Location",
+      "requested": "Requested",
+      "viewRide": "View Ride Details",
+      "accept": "Accept",
+      "decline": "Decline",
+      "accepted": "Request accepted!",
+      "refused": "Request declined!",
+      "updateFailed": "Failed to update request"
+    },
+    "sent": {
+      "title": "Your Ride Requests",
+      "noRequests": "You haven't requested any rides yet.",
+      "findLink": "Find rides",
+      "driver": "Driver",
+      "departure": "Departure",
+      "yourPickup": "Your Pickup",
+      "requested": "Requested",
+      "viewRide": "View Ride Details",
+      "cancelRequest": "Cancel Request",
+      "confirmCancel": "Are you sure you want to cancel this request?",
+      "cancelled": "Request cancelled",
+      "cancelFailed": "Failed to cancel request"
+    },
+    "status": {
+      "pending": "pending",
+      "accepted": "accepted",
+      "refused": "refused"
+    },
+    "loading": "Loading requests..."
+  },
+  "days": {
+    "sun": "Sun",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat"
+  },
+  "demo": {
+    "warning": {
+      "title": "Demo Mode",
+      "message": "This platform is currently for demonstration purposes only. The data shown is fake and rides cannot actually be booked at this time."
+    }
+  }
+}

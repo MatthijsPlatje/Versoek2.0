@@ -1,0 +1,79 @@
+# ---- Node / JavaScript ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# Compiled binaries
+dist/
+build/
+.tmp/
+.temp/
+
+# ---- Frontend (React / Vite) ----
+client/node_modules/
+client/dist/
+client/.vite/
+client/build/
+
+# ---- Backend (Node / Express) ----
+server/node_modules/
+server/dist/
+server/build/
+
+# ---- Environment / secrets ----
+.env
+.env.*        # e.g. .env.local, .env.production
+server/.env
+client/.env
+*.env.local
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Test / tooling caches ----
+.npm/
+.yarn/
+.eslintcache
+.stylelintcache
+.cache/
+.tmp/
+jest-cache/
+jest-test-results.json
+
+# ---- Misc ----
+*.tgz
+*.swp
+*.swo
+
+# Backups / dumps
+*.sql
+*.sql.gz
+dump.rdb

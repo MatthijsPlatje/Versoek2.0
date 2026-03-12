@@ -1,0 +1,681 @@
+{
+  "nav": {
+    "home": "Home",
+    "offerRide": "Rit Aanbieden",
+    "agenda": "Rit Zoeken",
+    "calendar": "Dashboard",
+    "notifications": "Meldingen",
+    "profile": "Profiel",
+    "admin": "Admin",
+    "logout": "Uitloggen",
+    "login": "Inloggen",
+    "register": "Registreren"
+  },
+    "home": {
+    "hero": {
+      "title": "Transformeer het woon-werkverkeer van uw bedrijf",
+      "subtitle": "Het vertrouwde carpoolplatform voor bedrijven dat kosten verlaagt, uitstoot vermindert en gelukkigere medewerkers creëert—terwijl het faciliteitenbeheer wordt vereenvoudigd.",
+      "demoButton": "Vraag een demo aan",
+      "tryButton": "Probeer Gratis"
+    },
+    "stats": {
+      "title": "Bewezen resultaten voor organisaties zoals dat van u",
+      "higherUsage": "Tot 50% hogere gebruikspercentages",
+      "lessParking": "Tot 30% minder parkeerruimte nodig",
+      "carbonReduction": "11–22% CO₂-Reductie",
+      "moreSatisfied": "80% meldt hogere tevredenheid"
+    },
+    "features": {
+      "title": "Alles wat u nodig hebt om een gezonde carpoolcommunity te bouwen",
+      "subtitle": "Ons platform maakt het moeiteloos voor medewerkers om ritten te delen, terwijl u de tools krijgt om impact te volgen en ROI te meten.",
+      "parkingCosts": {
+        "title": "Verlaag Parkeerkosten",
+        "description": "Organisaties melden parkeerbesparingen tot 30% kort na de lancering van een carpoolplatform, in lijn met verminderd verkeer en uitstoot. Studies tonen aan dat carpoolen de vlootomvang met 25% kan verminderen in stedelijke gebieden."
+      },
+      "sustainability": {
+        "title": "Bereik Duurzaamheidsdoelen",
+        "description": "Carpoolen kan de CO₂-uitstoot met 11–22% verlagen, afhankelijk van deelname, waarbij elke gedeelde rit een meetbare klimaatimpact heeft. Evenement-gebaseerde carpoolprogramma's hebben meer dan 10.000 km aan autokilometers per evenement bespaard."
+      },
+      "satisfaction": {
+        "title": "Verhoog Medewerkerstevredenheid",
+        "description": "Onderzoek toont aan dat meer dan 80% van de carpoolers minder woon-werkstress voelt en meer werkplekbetrokkenheid ervaart, omdat gedeelde ritten gemeenschapsverbindingen bevorderen en dagelijkse transportproblemen verminderen."
+      },
+      "transportation": {
+        "title": "Bespaar op Transport",
+        "description": "Het delen van ritten verlaagt actief de brandstofkosten en voertuigslijtage, waarbij bedrijven verminderd ziekteverzuim en personeelsverloop melden. De carpool-as-a-service markt groeit met 10,6% per jaar tot 2034."
+      },
+      "scheduling": {
+        "title": "Slimme Planning",
+        "description": "Geautomatiseerde ritmatching en terugkerende planning zorgen voor maximale bezetting, minder lege stoelen en dagelijkse betrouwbaarheid. Data-gedreven routing optimaliseert efficiëntie en vermindert de totale reisafstand."
+      },
+      "communication": {
+        "title": "Naadloze Communicatie",
+        "description": "Real-time meldingen en agendasychronisatie houden alle deelnemers geïnformeerd, waardoor complexe carpoolen over meerdere diensten soepel verloopt voor iedereen. Email en bel rechtstreeks met collegas om coördinatieproblemen te verminderen."
+      }
+    },
+    "howItWorks": {
+      "title": "Eenvoudige Installatie, Krachtige Impact",
+      "step1": {
+        "title": "Implementeer in uw omgeving",
+        "description": "Stel uw eigen merkgebonden carpoolplatform in met onze persoonlijke onboarding."
+      },
+      "step2": {
+        "title": "Medewerkers Verbinden",
+        "description": "Uw team maakt profielen aan, biedt ritten aan en vindt matches met collega's op vergelijkbare routes."
+      },
+      "step3": {
+        "title": "Volg & Optimaliseer",
+        "description": "Monitor gebruik, meet milieueffecten en exporteer data voor duurzaamheidsrapportage."
+      }
+    },
+    "useCases": {
+      "title": "Perfect voor elke Organisatie",
+      "enterprise": {
+        "title": "Grote Ondernemingen",
+        "description": "Verlaag parkeerinfrastructuurkosten en bereik duurzaamheidsdoelen met meetbare emissiereducties."
+      },
+      "tech": {
+        "title": "Techbedrijven",
+        "description": "Bied een modern personeelsvoordeel dat toptalent aantrekt en behoudt, terwijl werk-privébalans wordt ondersteund."
+      },
+      "healthcare": {
+        "title": "Zorgfaciliteiten",
+        "description": "Help ploegendienst-medewerkers om ritten te coördineren over verschillende roosters en locaties, waardoor transportstress van personeel wordt verminderd."
+      },
+      "manufacturing": {
+        "title": "Productie",
+        "description": "Verbind medewerkers over meerdere diensten in industriële gebieden met beperkte OV-opties, wat het personeelsbehoud verbetert."
+      }
+    },
+    "cta": {
+      "title": "Klaar om het woon-werkverkeer van uw bedrijf te transformeren?",
+      "subtitle": "Sluit u aan bij vooruitdenkende organisaties die kosten verlagen, uitstoot verminderen en gelukkigere medewerkers creëren met bedrijfscarpoolen.",
+      "button": "Neem vandaag contact op",
+      "disclaimer": "Geen creditcard vereist • Gratis proefperiode beschikbaar • Aanpassingen mogelijk"
+    },
+    "references": {
+      "title": "Bronnen & Onderzoek",
+      "note": "Alle statistieken gebaseerd op peer-reviewed onderzoek en branchestudies",
+      "sources": [
+        "International Transport Forum (ITF) - Global carpooling emissions and parking impact data",
+        "Nature Journal 2024 - Urban carpooling efficiency study showing 25% fleet reduction potential",
+        "Carpool-as-a-Service Market Analysis 2025-2034 - 10.6% annual growth and usage statistics", 
+        "Netherlands Event Carpooling Case Studies 2024 - 80% user satisfaction and social benefits",
+        "ScienceDirect 2025 - Carbon savings in ride-pooling research, route-based analysis"
+      ]
+    }
+  },
+  "offerRide": {
+    "title": "Rit Aanbieden",
+    "subtitle": "Stel uw route en schema in om uw woon-werkverkeer te delen.",
+    "createButton": "Rit Aanmaken",
+    "step1": {
+      "title": "1. Stel Uw Route In",
+      "instruction": "Klik op de kaart om uw start- en eindpunt in te stellen.",
+      "currentlySelecting": "Momenteel selecteren",
+      "start": "START",
+      "end": "EIND",
+      "done": "KLAAR",
+      "resetPoints": "Punten Resetten"
+    },
+    "step2": {
+      "title": "2. Selecteer Rit Type",
+      "singleTrip": "Enkele Rit",
+      "recurring": "Terugkerend"
+    },
+    "step3": {
+      "title": "3. Stel Uw Schema In",
+      "onTheseDays": "Op deze dagen",
+      "departureTime": "Vertrektijd",
+      "departureDatetime": "Vertrekdatum & Tijd",
+      "includeReturn": "Inclusief retourrit",
+      "returnTime": "Retourtijd",
+      "startDate": "Startdatum",
+      "endDate": "Einddatum (Optioneel)"
+    },
+    "step4": {
+      "title": "4. Laatste Details",
+      "availableSeats": "Beschikbare Plaatsen"
+    },
+    "days": {
+      "monday": "Ma",
+      "tuesday": "Di",
+      "wednesday": "Wo",
+      "thursday": "Do",
+      "friday": "Vr",
+      "saturday": "Za",
+      "sunday": "Zo"
+    },
+    "success": {
+      "single": "Uw rit is aangeboden!",
+      "recurring": "Terugkerende ritregel is aangemaakt!"
+    },
+    "errors": {
+      "selectPoints": "Selecteer een start- en eindpunt op de kaart.",
+      "selectDays": "Selecteer minimaal één dag voor een terugkerende rit.",
+      "addressFetch": "Kon adres niet ophalen. Probeer het opnieuw.",
+      "unexpected": "Er is een onverwachte fout opgetreden."
+    }
+  },
+  "agenda": {
+    "title": "Rit Zoeken",
+    "from": "Van",
+    "to": "Naar",
+    "filterByDate": "Datum",
+    "clearFilters": "Filters Wissen",
+    "searching": "Ritten zoeken...",
+    "departure": "Vertrek",
+    "availableSeats": "Beschikbare Plaatsen",
+    "driver": "Bestuurder",
+    "viewDetails": "Bekijk Details",
+    "noRidesFound": "Geen ritten gevonden die aan uw criteria voldoen. Probeer andere filters of kom later terug!",
+    "notSpecified": "Niet gespecificeerd",
+    "placeholders": {
+      "from": "bijv., Kantoor Centrum",
+      "to": "bijv., Noord Campus"
+    }
+  },
+  "calendar": {
+    "title": "Uw Activiteitenkalender",
+    "loading": "Schema laden...",
+    "detailsFor": "Details voor",
+    "offerRide": "Rit aanbieden op de geselecteerde dag",
+    "findRide": "Rit Zoeken",
+    "youAreDriving": "U Rijdt",
+    "youArePassenger": "U bent Passagier",
+    "recurringPlan": "Terugkerend Plan",
+    "time": "Tijd",
+    "seatsAvailable": "Beschikbare Plaatsen",
+    "driver": "Bestuurder",
+    "status": "Status",
+    "viewManifest": "Bekijk Ritmanifest",
+    "viewRideDetails": "Bekijk Ritdetails",
+    "recurringPlaceholderInfo": "Dit is een placeholder voor uw terugkerende rit. Een daadwerkelijke rit wordt automatisch gegenereerd zodat anderen kunnen deelnemen.",
+    "otherRidesAvailable": "Andere Ritten Beschikbaar",
+    "otherRidesInfo": "Er zijn andere ritten beschikbaar op deze dag.",
+    "viewAllRides": "Bekijk Alle Ritten op Deze Dag",
+    "noActivity": "Geen activiteit gepland voor deze dag.",
+    "selectDay": "Selecteer een dag om details te zien.",
+    "legend": {
+      "actualRide": "Daadwerkelijke Rit",
+      "recurringPlan": "Terugkerend Plan",
+      "youRequested": "U Heeft Aangevraagd",
+      "ridesAvailable": "Ritten Beschikbaar"
+    },
+    "errors": {
+      "loadFailed": "Kon uw schema niet laden.",
+      "updateFailed": "Kon verzoek niet bijwerken."
+    },
+    "quickLinks": {
+      "myRides": "Mijn Ritten",
+      "createRide": "Rit Aanmaken",
+      "recurringRide": "Terugkerende Rit",
+      "findRides": "Ritten Zoeken",
+      "requests": "Verzoeken"
+    }
+  },
+  "rideDetail": {
+    "title": "Rit met",
+    "loading": "Ritdetails laden...",
+    "departure": "Vertrek",
+    "from": "Van",
+    "to": "Naar",
+    "startLocation": "Startlocatie",
+    "endLocation": "Eindlocatie",
+    "cancelMySeat": "Mijn Plaats Annuleren",
+    "cancelThisRide": "Deze Rit Annuleren",
+    "passenger": "Passagier",
+    "pendingFrom": "Openstaand verzoek van",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "yourPickup": "Uw aangevraagde ophaallocatie",
+    "selectedPickup": "Uw geselecteerde ophaalpunt",
+    "mapUnavailable": "Kaartgegevens zijn niet beschikbaar. Coördinaten ontbreken of zijn ongeldig.",
+    "manifest": {
+      "title": "Ritmanifest",
+      "seatsLeft": "Plaatsen Over",
+      "acceptedPassengers": "Geaccepteerde Passagiers",
+      "noPassengers": "Er zijn nog geen passagiers geaccepteerd."
+    },
+    "requestStatus": {
+      "title": "Uw Verzoekstatus",
+      "current": "Uw verzoek voor deze rit is momenteel"
+    },
+    "requestSeat": {
+      "title": "Plaats Aanvragen",
+      "instruction": "Klik op de kaart hierboven om uw gewenste ophaallocatie in te stellen.",
+      "confirm": "Plaatsverzoek Bevestigen",
+      "full": "Rit is Vol"
+    },
+    "alerts": {
+      "selectPickup": "Selecteer eerst een ophaallocatie op de kaart.",
+      "requestSent": "Uw verzoek is verzonden!",
+      "seatCanceled": "Uw plaats is geannuleerd.",
+      "rideCanceled": "De rit is succesvol geannuleerd."
+    },
+    "confirmations": {
+      "cancelSeat": "Weet u zeker dat u uw plaats wilt annuleren? Dit kan niet ongedaan worden gemaakt.",
+      "cancelRide": "Weet u zeker dat u deze hele rit wilt annuleren? Alle passagiers worden op de hoogte gesteld. Deze actie kan niet ongedaan worden gemaakt."
+    },
+    "errors": {
+      "loadFailed": "Ritdetails laden mislukt.",
+      "noData": "Ritgegevens konden niet worden geladen.",
+      "requestFailed": "Kon verzoek niet verzenden.",
+      "cancelSeatFailed": "Uw plaats annuleren mislukt.",
+      "cancelRideFailed": "Rit annuleren mislukt.",
+      "updateFailed": "Kon verzoek niet bijwerken."
+    }
+  },
+  "notifications": {
+    "title": "Uw Meldingen",
+    "markAllRead": "Alles Markeren als Gelezen",
+    "noNotifications": "U heeft geen nieuwe meldingen.",
+    "loading": "Meldingen laden..."
+  },
+  "profile": {
+    "title": "Uw Profiel",
+    "loading": "Profiel laden...",
+    "name": "Volledige Naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "phonePlaceholder": "bijv., +31 6 12345678",
+    "updatePicture": "Profielfoto Bijwerken",
+    "uploadButton": "Foto Uploaden",
+    "updateButton": "Profielinfo Bijwerken",
+    "pictureAlt": "Profiel",
+    "updateSuccess": "Profiel succesvol bijgewerkt!",
+    "updateError": "Profiel bijwerken mislukt.",
+    "pictureUpdateSuccess": "Profielfoto bijgewerkt!",
+    "pictureUpdateError": "Foto uploaden mislukt.",
+    "selectFileFirst": "Selecteer eerst een bestand."
+  },
+    "admin": {
+    "title": "Admin Dashboard",
+    "exportButton": "📊 Ritten Exporteren naar CSV",
+    "tabs": {
+      "overview": "Overzicht",
+      "sustainability": "Duurzaamheid",
+      "engagement": "Gebruikersbetrokkenheid",
+      "operations": "Operaties"
+    },
+    "kpis": {
+      "totalUsers": "Totaal Gebruikers",
+      "totalRides": "Totaal Aangemaakte Ritten",
+      "passengersTransported": "Vervoerde Passagiers",
+      "averageDistance": "Gemiddelde Ritafstand",
+      "totalCO2Saved": "Totaal CO₂ Bespaard",
+      "treesEquivalent": "Boom Equivalent",
+      "totalDistance": "Totale Carpool Afstand",
+      "occupancyRate": "Gemiddelde Bezettingsgraad",
+      "activeDrivers": "Actieve Bestuurders",
+      "driverUtilization": "Bestuurder Gebruikspercentage",
+      "acceptanceRate": "Verzoek Acceptatiepercentage",
+      "avgResponseTime": "Gem. Reactietijd",
+      "completionRate": "Rit Voltooiingspercentage",
+      "pendingRequests": "Openstaande Verzoeken",
+      "refusedRequests": "Geweigerde Verzoeken"
+    },
+    "chart": {
+      "title": "Ritten & Passagiers (Laatste 6 Maanden)",
+      "ridesCreated": "Aangemaakte Ritten",
+      "passengersAccepted": "Geaccepteerde Passagiers",
+      "co2Trend": "CO₂-uitstoot Bespaard Over Tijd",
+      "co2Label": "CO₂ Bespaard (kg)",
+      "requestStatus": "Verzoekstatus Verdeling",
+      "peakHours": "Piekgebruiksuren",
+      "peakHoursLabel": "Ritten per Uur",
+      "newUsers": "Nieuwe Gebruikersregistraties",
+      "newUsersLabel": "Nieuwe Registraties",
+      "ridesVsPassengers": "Ritten vs Passagiers (6 Maanden)",
+      "requestDistribution": "Verzoek Verdeling"
+    },
+    "labels": {
+      "accepted": "Geaccepteerd",
+      "pending": "In Behandeling",
+      "refused": "Geweigerd",
+      "kg": "kg",
+      "hours": "u",
+      "percent": "%",
+      "km": "km"
+    },
+    "errors": {
+      "loadFailed": "Dashboard-gegevens laden mislukt. U heeft mogelijk geen toestemming of de server is niet beschikbaar.",
+      "exportFailed": "Gegevens exporteren mislukt. Probeer het opnieuw.",
+      "noData": "Geen gegevens beschikbaar",
+      "noChartData": "Geen grafiekgegevens beschikbaar",
+      "noKpiData": "Geen KPI-gegevens beschikbaar"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Inloggen op Uw Account",
+      "email": "E-mail",
+      "emailPlaceholder": "Voer uw e-mailadres in",
+      "password": "Wachtwoord",
+      "passwordPlaceholder": "Voer uw wachtwoord in",
+      "loginButton": "Inloggen",
+      "noAccount": "Heeft u nog geen account?",
+      "registerLink": "Registreer hier",
+      "error": "Ongeldige inloggegevens",
+      "errorGeneric": "Er is een fout opgetreden. Probeer het opnieuw."
+    },
+    "register": {
+      "title": "Maak Uw Account Aan",
+      "name": "Volledige Naam",
+      "namePlaceholder": "Voer uw volledige naam in",
+      "email": "E-mail",
+      "emailPlaceholder": "Voer uw e-mailadres in",
+      "password": "Wachtwoord",
+      "passwordPlaceholder": "Voer uw wachtwoord in",
+      "confirmPassword": "Bevestig Wachtwoord",
+      "confirmPasswordPlaceholder": "Bevestig uw wachtwoord",
+      "registerButton": "Registreren",
+      "haveAccount": "Heeft u al een account?",
+      "loginLink": "Log hier in",
+      "passwordMismatch": "Wachtwoorden komen niet overeen",
+      "success": "Registratie succesvol!",
+      "errorGeneric": "Er is een fout opgetreden. Probeer het opnieuw."
+    }
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Fout",
+    "success": "Succes",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "close": "Sluiten",
+    "confirm": "Bevestigen",
+    "back": "Terug",
+    "next": "Volgende",
+    "submit": "Verzenden",
+    "search": "Zoeken",
+    "filter": "Filteren",
+    "clear": "Wissen",
+    "yes": "Ja",
+    "no": "Nee",
+    "ok": "OK",
+    "coordinates": "Coördinaten",
+    "locationNotSpecified": "Locatie niet gespecificeerd",
+    "invalidDate": "Ongeldige datum",
+    "locale": "nl-NL"
+  },
+  "publicProfile": {
+    "title": "Profiel van {{name}}",
+    "loading": "Profiel laden...",
+    "errorLoad": "Kon profiel niet laden. De gebruiker bestaat mogelijk niet.",
+    "notFound": "Profiel niet gevonden.",
+    "fullName": "Volledige Naam",
+    "email": "E-mail",
+    "phone": "Contacttelefoon",
+    "notProvided": "Niet opgegeven",
+    "pictureAlt": "Profiel van {{name}}"
+  },
+  "adminPage": {
+    "title": "Admin Dashboard",
+    "subtitle": "Beheer uw carpoolplatform",
+    "userManagement": {
+      "title": "Gebruikersbeheer",
+      "description": "Voeg toe, bewerk en beheer gebruikersaccounts. Upload bulk gebruikers via CSV en verstuur uitnodigingsmails.",
+      "features": {
+        "bulkUpload": "Bulk CSV Upload",
+        "editDetails": "Gebruikersdetails Bewerken",
+        "departmentManagement": "Afdelingsbeheer",
+        "resendInvitations": "Uitnodigingen Opnieuw Verzenden"
+      }
+    },
+    "analytics": {
+      "title": "Analytics Dashboard",
+      "description": "Bekijk uitgebreide platformstatistieken, duurzaamheidsmetrieken en gebruikersbetrokkenheidsgegevens.",
+      "features": {
+        "realtimeKpis": "Real-time KPI's",
+        "co2Tracking": "CO₂-besparingen Volgen",
+        "userEngagement": "Gebruikersbetrokkenheid Grafieken",
+        "exportReports": "Rapporten Exporteren"
+      }
+    },
+    "preview": {
+      "platformOverview": {
+        "title": "Platformoverzicht",
+        "description": "Snelle toegang om gebruikers te beheren en gedetailleerde analyses te bekijken"
+      },
+      "sustainabilityFocus": {
+        "title": "Duurzaamheidsfocus",
+        "description": "Volg de impact op het milieu en bedrijfsdoelen"
+      },
+      "dataInsights": {
+        "title": "Data-gedreven Inzichten",
+        "description": "Neem weloverwogen beslissingen met uitgebreide rapporten"
+      }
+    }
+  },
+  "userManagement": {
+    "title": "Gebruikersbeheer",
+    "backToAdmin": "Terug naar Admin",
+    "bulkUpload": {
+      "title": "Bulk Gebruiker Upload",
+      "description": "Upload een CSV-bestand om meerdere gebruikersaccounts tegelijk aan te maken. Elke gebruiker ontvangt een uitnodigingsmail met hun inloggegevens.",
+      "downloadTemplate": "CSV Sjabloon Downloaden",
+      "chooseFile": "CSV-bestand Kiezen",
+      "uploadButton": "Uploaden & Gebruikers Aanmaken",
+      "uploading": "Uploaden..."
+    },
+    "uploadStatus": {
+      "created": "Aangemaakt",
+      "skipped": "Overgeslagen",
+      "errors": "Fouten",
+      "users": "gebruikers"
+    },
+    "filters": {
+      "searchPlaceholder": "Zoeken op naam of e-mail...",
+      "allDepartments": "Alle Afdelingen",
+      "clearFilters": "Filters Wissen"
+    },
+    "table": {
+      "name": "Naam",
+      "email": "E-mail",
+      "department": "Afdeling",
+      "admin": "Admin",
+      "joined": "Lid Sinds",
+      "actions": "Acties",
+      "yes": "Ja",
+      "no": "Nee",
+      "editTitle": "Bewerken",
+      "resendTitle": "Uitnodiging Opnieuw Verzenden",
+      "deleteTitle": "Verwijderen"
+    },
+    "pagination": {
+      "previous": "Vorige",
+      "next": "Volgende",
+      "pageOf": "Pagina {{current}} van {{total}}"
+    },
+    "editModal": {
+      "title": "Gebruiker Bewerken",
+      "name": "Naam",
+      "email": "E-mail",
+      "department": "Afdeling",
+      "adminUser": "Admin Gebruiker",
+      "save": "Opslaan",
+      "cancel": "Annuleren"
+    },
+    "confirmations": {
+      "deleteUser": "Weet u zeker dat u deze gebruiker wilt verwijderen?"
+    },
+    "alerts": {
+      "selectFile": "Selecteer eerst een CSV-bestand",
+      "deleteError": "Fout bij verwijderen gebruiker",
+      "resendSuccess": "Uitnodigingsmail succesvol opnieuw verzonden",
+      "resendError": "Fout bij opnieuw verzenden uitnodiging",
+      "updateError": "Fout bij bijwerken gebruiker"
+    },
+    "loading": "Gebruikers laden..."
+  },
+  "contact": {
+    "hero": {
+      "title": "Neem Contact Op",
+      "subtitle": "Heeft u vragen? Wilt u een demo plannen? We helpen u graag om het woon-werkverkeer van uw bedrijf te transformeren."
+    },
+    "info": {
+      "title": "Contactgegevens",
+      "email": {
+        "title": "E-mail"
+      },
+      "phone": {
+        "title": "Telefoon"
+      },
+      "address": {
+        "title": "Locatie"
+      },
+      "hours": {
+        "title": "Openingstijden",
+        "weekdays": "Maandag - Vrijdag: 9:00 - 18:00",
+        "weekend": "Weekend: Op afspraak"
+      },
+      "demo": {
+        "title": "Behoefte aan een snelle demo?",
+        "description": "Plan een online demo van 15 minuten om te zien hoe ons platform uw organisatie kan helpen.",
+        "button": "Selecteer 'Vraag een demo aan' als onderwerp"
+      }
+    },
+    "form": {
+      "title": "Stuur ons een bericht",
+      "name": "Volledige Naam",
+      "email": "E-mailadres",
+      "company": "Bedrijfsnaam",
+      "phone": "Telefoonnummer",
+      "subject": "Onderwerp",
+      "subjectPlaceholder": "Selecteer een onderwerp",
+      "subjects": {
+        "demo": "Vraag een demo aan",
+        "pricing": "Prijsinformatie",
+        "support": "Technische Ondersteuning",
+        "partnership": "Partnerschapsmogelijkheid",
+        "other": "Anders"
+      },
+      "message": "Bericht",
+      "submit": "Verstuur Bericht",
+      "sending": "Verzenden...",
+      "successMessage": "Bedankt! Uw bericht is succesvol verzonden. We nemen binnen 24 uur contact met u op.",
+      "errorMessage": "Sorry, er is iets misgegaan. Probeer het opnieuw of stuur ons direct een e-mail naar info@versoek.nl"
+    }
+  },
+  "myRides": {
+    "title": "Mijn Ritten",
+    "tabs": {
+      "recurring": "Terugkerende Patronen",
+      "upcoming": "Aankomende Ritten",
+      "past": "Eerdere Ritten",
+      "passenger": "Als Passagier"
+    },
+    "recurring": {
+      "title": "Terugkerende Rit Patronen",
+      "noPatterns": "U heeft geen terugkerende rit patronen.",
+      "createLink": "Creëer een terugkerende rit",
+      "days": "Dagen",
+      "time": "Tijd",
+      "seats": "Stoelen",
+      "startDate": "Startdatum",
+      "endDate": "Einddatum",
+      "noEndDate": "Geen einddatum",
+      "expired": "Verlopen",
+      "cancelPattern": "Patroon Annuleren",
+      "confirmCancel": "Weet u zeker dat u dit terugkerende rit patroon wilt annuleren?\n\nDit stopt het genereren van nieuwe ritten, maar bestaande geplande ritten blijven totdat u ze individueel annuleert."
+    },
+    "upcoming": {
+      "title": "Aankomende Ritten (Als Bestuurder)",
+      "noRides": "U heeft geen aankomende ritten.",
+      "createLink": "Creëer een rit",
+      "seatsLeft": "Beschikbare Stoelen",
+      "passengers": "Passagiers",
+      "confirmed": "bevestigd",
+      "pendingRequests": "verzoeken in behandeling",
+      "viewDetails": "Bekijk Details",
+      "cancelRide": "Rit Annuleren",
+      "confirmCancel": "Weet u zeker dat u deze rit wilt annuleren?"
+    },
+    "past": {
+      "title": "Eerdere Ritten (Als Bestuurder)",
+      "noRides": "Geen eerdere ritten.",
+      "completed": "Voltooid",
+      "passengers": "Passagiers"
+    },
+    "passenger": {
+      "title": "Mijn Ritten als Passagier",
+      "noRides": "U heeft nog geen ritten geboekt als passagier.",
+      "findLink": "Ritten zoeken",
+      "driver": "Bestuurder",
+      "departure": "Vertrek",
+      "viewDetails": "Bekijk Details"
+    },
+    "common": {
+      "departure": "Vertrek",
+      "from": "Van",
+      "to": "Naar"
+    },
+    "alerts": {
+      "patternCancelled": "Terugkerend rit patroon succesvol geannuleerd!",
+      "patternCancelFailed": "Kon terugkerend rit patroon niet annuleren",
+      "rideCancelled": "Rit succesvol geannuleerd!",
+      "rideCancelFailed": "Kon rit niet annuleren"
+    },
+    "loading": "Uw ritten laden..."
+  },
+  "rideRequests": {
+    "title": "Rit Verzoeken",
+    "tabs": {
+      "received": "Ontvangen",
+      "sent": "Mijn Verzoeken"
+    },
+    "received": {
+      "title": "Verzoeken voor Uw Ritten",
+      "noRequests": "Geen verzoeken in behandeling voor uw ritten.",
+      "passenger": "Passagier",
+      "ride": "Rit",
+      "departure": "Vertrek",
+      "pickupLocation": "Ophaallocatie",
+      "requested": "Aangevraagd",
+      "viewRide": "Bekijk Rit Details",
+      "accept": "Accepteren",
+      "decline": "Weigeren",
+      "accepted": "Verzoek geaccepteerd!",
+      "refused": "Verzoek geweigerd!",
+      "updateFailed": "Kon verzoek niet bijwerken"
+    },
+    "sent": {
+      "title": "Uw Rit Verzoeken",
+      "noRequests": "U heeft nog geen ritten aangevraagd.",
+      "findLink": "Ritten zoeken",
+      "driver": "Bestuurder",
+      "departure": "Vertrek",
+      "yourPickup": "Uw Ophaallocatie",
+      "requested": "Aangevraagd",
+      "viewRide": "Bekijk Rit Details",
+      "cancelRequest": "Verzoek Annuleren",
+      "confirmCancel": "Weet u zeker dat u dit verzoek wilt annuleren?",
+      "cancelled": "Verzoek geannuleerd",
+      "cancelFailed": "Kon verzoek niet annuleren"
+    },
+    "status": {
+      "pending": "in behandeling",
+      "accepted": "geaccepteerd",
+      "refused": "geweigerd"
+    },
+    "loading": "Verzoeken laden..."
+  },
+  "days": {
+    "sun": "Zo",
+    "mon": "Ma",
+    "tue": "Di",
+    "wed": "Wo",
+    "thu": "Do",
+    "fri": "Vr",
+    "sat": "Za"
+  },
+  "demo": {
+    "warning": {
+      "title": "Demo Modus",
+      "message": "Dit platform is momenteel alleen voor demonstratiedoeleinden. De getoonde gegevens zijn nep en ritten kunnen op dit moment niet daadwerkelijk worden geboekt."
+    }
+  }
+}

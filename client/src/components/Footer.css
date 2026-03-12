@@ -1,0 +1,9 @@
+/* client/src/components/Footer.css */
+
+.app-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #343a40;
+  color: #f8f9fa;
+  margin-top: auto; /* Pushes footer to the bottom in a flex container */
+}

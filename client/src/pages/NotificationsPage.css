@@ -1,0 +1,23 @@
+/* client/src/pages/NotificationsPage.css */
+.notifications-page-container { max-width: 800px; margin: auto; }
+.notification-item-button {
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notification-item-button:hover { background-color: #f8f9fa; }
+.notification-item-button .message { font-weight: 500; }
+.notification-item-button .date { font-size: 0.9em; color: #6c757d; }
+
+li.unread .notification-item-button {
+  background-color: #eaf3ff; /* A light blue to indicate unread */
+  border-left: 4px solid #007bff;
+}

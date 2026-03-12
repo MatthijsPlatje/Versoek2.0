@@ -1,0 +1,229 @@
+/* /client/src/pages/OfferRide.css */
+
+/* --- Main Layout & Variables --- */
+:root {
+  --primary-color: #007bff;
+  --primary-hover-color: #0056b3;
+  --background-color: #f4f7f6;
+  --card-background: #ffffff;
+  --text-color: #333;
+  --label-color: #555;
+  --border-color: #ddd;
+  --border-radius: 8px;
+}
+
+.offer-ride-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+}
+
+.offer-ride-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.offer-ride-header h2 {
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.offer-ride-header p {
+  color: var(--label-color);
+}
+
+/* --- Card Styling --- */
+.form-card {
+  background: var(--card-background);
+  padding: 1.5rem 2rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.form-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.form-card .subtitle {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--label-color);
+}
+
+/* --- Ride Type Selector --- */
+.ride-type-selector {
+  display: flex;
+  width: 100%;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.ride-type-selector button {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--label-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.ride-type-selector button:not(:last-child) {
+  border-right: 1px solid var(--border-color);
+}
+
+.ride-type-selector button.active {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* --- Form Grid & Groups --- */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: var(--label-color);
+  margin-bottom: 0.5rem;
+}
+
+.form-group input[type="time"],
+.form-group input[type="date"],
+.form-group input[type="datetime-local"],
+.form-group input[type="number"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+.checkbox-group {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 1.25em;
+  height: 1.25em;
+  accent-color: var(--primary-color);
+}
+
+/* --- Day Selector --- */
+.day-selector {
+  grid-column: 1 / -1; /* Span full width */
+}
+
+.day-selector label {
+  font-weight: 500;
+  color: var(--label-color);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.day-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.day-button {
+  flex: 1;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  background-color: var(--card-background);
+  color: var(--label-color);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.day-button.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+/* --- Buttons & Other --- */
+.submit-section {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.primary-button:hover:not(:disabled) {
+  background-color: var(--primary-hover-color);
+}
+
+.primary-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.map-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-summary {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--background-color);
+  border-radius: var(--border-radius);
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+}
