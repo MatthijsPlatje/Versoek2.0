@@ -290,8 +290,3 @@ Contributions, bug reports, and feature ideas are welcome.
 
 License: To be decided; not open source yet
 
-<<<<<<< HEAD
-***
-=======
-***
->>>>>>> 54c3a337db9bd2f0f045e01e1a59659d0589e796
